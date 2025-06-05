@@ -1,6 +1,8 @@
 
 <img width="521" src="https://github.com/user-attachments/assets/16dba94a-073a-4e1d-b70c-2695c1c23ee1" />
 
+> MenuBarCountdown on macOS 15.5 (Menu bar customized with [Ice](https://github.com/jordanbaird/Ice))
+
 # MenuBarCountdown
 Display a countdown in the macOS menu bar
 
