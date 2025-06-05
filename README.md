@@ -1,5 +1,5 @@
 
-<img width="521" alt="Screenshot" src="https://github.com/user-attachments/assets/656d682b-09d0-4e34-9526-55289cd7cb3c" />
+<img width="521" src="https://github.com/user-attachments/assets/16dba94a-073a-4e1d-b70c-2695c1c23ee1" />
 
 # MenuBarCountdown
 Display a countdown in the macOS menu bar
