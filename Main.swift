@@ -26,11 +26,15 @@ class CountdownModel: ObservableObject {
     }
     
     private func updateURL() {
-        url = URL(string: fetchURLString)!
+        if let newurl = URL(string: fetchURLString) {
+            url = newurl
+        } else {
+            print("Invalid URL: \(fetchURLString)")
+        }
     }
     
     private func startTimers() {
-        timer = Timer.scheduledTimer(withTimeInterval: 0.001, repeats: true) { _ in
+        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
             self.updateTimeString()
         }
         fetchTimer = Timer.scheduledTimer(withTimeInterval: TimeInterval(Int(fetchSeconds)!), repeats: true) { _ in
@@ -276,7 +280,7 @@ struct ContentView: View {
             Text("ISO8601: " + model.rawDateString)
             Divider()
             Text("MenuBarCountdown")
-            Button("Refresh Date Infomation") {
+            Button("Refresh Date Information") {
                 model.fetchDate()
             }
             .onChange(of: fetchURLString, {
