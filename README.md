@@ -20,7 +20,7 @@ After all, this endpoint is the date and time endpoint for Apple Event (include 
 ### Is an endpoint required?
 The endpoint is required, but it does not have to be hosted by you.
 
-I provides its own endpoint (`https://diamondgotcat.net/echo/?content=2025-06-10T10:00:00-07:00`) so that anyone can use it, even if they are not a developer.
+I provides its own endpoint (`https://diamondgotcat.net/echo/?content=2025-06-10T17:00:00Z`) so that anyone can use it, even if they are not a developer.
 
 ## Note
 If you are building it yourself, please note the following:
