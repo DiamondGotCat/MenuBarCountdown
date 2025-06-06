@@ -22,6 +22,9 @@ The endpoint is required, but it does not have to be hosted by you.
 
 I provides its own endpoint (`https://diamondgotcat.net/echo/?content=2025-06-10T17:00:00Z`) so that anyone can use it, even if they are not a developer.
 
+## Other Screenshots
+<img width="644" src="https://github.com/user-attachments/assets/47e8b7da-1e0f-4232-889f-0606de46cf6f" />
+
 ## Note
 If you are building it yourself, please note the following:
 - To hide it from the Dock, add "LSUIElement" to Info.plist as Yes (Boolean, set to "1" in the file).
